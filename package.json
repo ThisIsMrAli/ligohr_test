@@ -1,0 +1,37 @@
+{
+  "name": "ligohr-test",
+  "version": "1.0.0",
+  "description": "this is answer of the quesition in the pre interview form",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "dev": "nodemon --exec babel-node app.js",
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisIsMrAli/ligohr_test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Ali Abdolyousefi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThisIsMrAli/ligohr_test/issues"
+  },
+  "homepage": "https://github.com/ThisIsMrAli/ligohr_test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.3.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "lodash": "^4.17.15"
+  }
+}
