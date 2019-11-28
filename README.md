@@ -2,19 +2,26 @@
 
 ## Introduction
 
-Fuse.js is a lightweight fuzzy-search, in JavaScript, with zero dependencies.
-
-## Documentation
-
-To checkout out [live examples](https://fusejs.io) and docs, visit [fusejs.io](https://fusejs.io).
+this project is test for applting in ligohr company for frontend.
 
 ## Installation
 
-__NPM__
+__Yarn__
 
-NPM is the recommended installation method. It pairs nicely with a CommonJS module bundler such as [Webpack](http://webpack.github.io/) or [Browserify](http://browserify.org/).
+Yarn is the recommended installation method.
 
 ```sh
-# latest stable
-$ npm install --save fuse.js
+$ yarn install
+```
+
+## Start
+
+```sh
+$ yarn start
+```
+
+## Run Tests
+
+```sh
+$ yarn test
 ```
